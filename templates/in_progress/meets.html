@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/css/config.css">
+    <link rel="stylesheet" href="../../static/css/meets.css">
+    <link rel="stylesheet" href="../../static/css/icons_fa.css">
+    <title>LOQ Meetings page</title>
+</head>
+<body>
+
+    <div class="main__bg"></div>
+
+    <section class="main_content">
+        <div class="container">
+            <h1 class="main__title">Подбор встречи</h1>
+            <div class="map">
+                <div class="location-title">
+                    <h3>
+                        д. Дед-Кабак, Псковская обл. <i class="fas fa-pen"></i>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="small_container">
+            <h2 class="range__title">Радиус поиска</h2>
+            <input type="range" name="" class="range__selector selector">
+            <hr>
+            <h2 class="novelty__title">Степень новизны</h2>
+            <input type="range" class="novelty__selector selector">
+            <p class="novelty__description">всегда должно быть что-то знакомое</p>
+            <h2 class="price__title">Цена</h2>
+            <input type="range" class="price__selector">
+            <hr>
+            <div class="lists-row">
+                <select name="payment" id="" >
+                    <option disabled selected value="0">Способ оплаты</option>
+                </select>
+                <select name="date" id="">
+                    <option disabled selected value="0">Время и дата</option>
+                </select>
+            </div>
+            <hr>
+            <input type="submit" value="Подобрать встречу" class="meet__button">
+        </div>
+    </section>
+
+    <nav>
+        <div class="nav__container">
+            
+            <div class="nav__element">
+                <a href="visited.html">
+                    <img src="../../static/assets/img/visited.png" alt="">
+                </a>
+            </div>
+            <div class="nav__element">
+                <a href="meets.html">
+                    <img src="../../static/assets/img/meets__dark.png" alt="">
+                </a>
+            </div>
+            <div class="nav__element">
+                <a href="profile.html">
+                    <img src="../../static/assets/img/profile.png" alt="">
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+</body>
+</html>
